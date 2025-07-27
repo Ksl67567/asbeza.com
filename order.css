@@ -1,0 +1,88 @@
+* {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+.container {
+    background: linear-gradient(45deg, blueviolet, lightgreen);
+    padding: 15px 9%;
+    padding-bottom: 100px;
+}
+.container .btn {
+ border-radius: 14px;
+ color: rgba(34, 69, 78, 12);
+ 
+}
+.bo button:hover{
+    color: aqua;
+}
+
+.container .heading {
+    text-align: center;
+    padding-bottom: 15px;
+    color: #fff;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    font-size: 50px;
+}
+
+.container .box-container {
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(270px, 3fr));
+    gap: 15px;
+}
+
+.container .box-container .box {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    border-radius: 35px;
+    background: #fff;
+    text-align: center;
+    padding: 30px 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.container .box-container .box img {
+    height: 180px;
+    border-radius: 15px;
+}
+
+.container .box-container .box h3{
+    color: #444;
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+.container .box-container .box p{
+    color: #777;
+    font-size: 15px;
+    padding: 10px 0;
+    line-height: 1.8;
+}
+.box .btn:hover{
+    background-color: aqua;
+}
+
+/* resposive */
+@media screen and (max-width: 500px) {
+    .form .column {
+    flex-wrap: wrap;
+}
+.form :where(.gender-option, .gender) {
+    row-gap: 15px;
+}
+}
+
+
+
+
+

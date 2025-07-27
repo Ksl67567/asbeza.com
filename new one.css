@@ -1,0 +1,9 @@
+.main {
+    width: 100%;
+    background-position: center;
+    background-size: 1500px;
+    background-image: url(home.jpg);
+    background: linear-gradient(45deg, 45, l5);
+    height: 150vh;
+  }
+  
